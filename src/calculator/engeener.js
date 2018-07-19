@@ -104,8 +104,8 @@ function ECalculator(divId, engineerMode){
     _this.displayResult = function() {
 
         _this.formulaDiv.innerHTML = _this.actors.join(' ');
-        console.log(_this.result)
-        if(_this.result != NaN) {
+        
+        if(_this.result != NaN && parseFloat(_this.result)) {
             _this.resultDiv.innerHTML = _this.result;
         }
         _this.historyDiv.innerHTML = _this.actors.join('<br/>');
@@ -273,6 +273,7 @@ function ECalculator(divId, engineerMode){
         _this.result = 0;
         _this.numCell = '';
         _this.displayResult();
+        _this.resultDiv.innerHTML='';
     }
 
     /**

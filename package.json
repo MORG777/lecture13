@@ -34,5 +34,13 @@
     "normalize.css": "^8.0.0"
   },
   "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MORG777/lecture13.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MORG777/lecture13/issues"
+  },
+  "homepage": "https://github.com/MORG777/lecture13#readme",
   "description": ""
 }

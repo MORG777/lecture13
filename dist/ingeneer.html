@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title></title>
-    <link href="style.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
   </head>
   <body class="Lighter">
 
@@ -16,10 +16,15 @@
     <div id="Simple" class="calc"></div>
 
 
-    <script src="calculator/engeener.js"></script>
-    <script src="index.js"></script>
     <footer>
       <div class="copyright"> Copyright@2018 All Right Reserved<br> Chicherin Artem</div>
     </footer>
+    <script src="calculator/engeener.js"></script>
+    <script src="index.js"></script>
+    <script>
+        function switchTheme(theme) {
+          document.body.className = theme;
+        }
+    </script>
   </body>
 </html>
